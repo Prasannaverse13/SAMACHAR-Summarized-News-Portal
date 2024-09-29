@@ -35,9 +35,9 @@ To run this project locally, follow these steps:
 ```sh
     pip install streamlit newspaper3k
 ``` 
-6. **Install any missing modules (optional): If you encounter any missing modules, you can install them by using**:
+6. **Install bs4 (BeautifulSoup4)**:
 ```sh
-pip install <module-name>
+pip install beautifulsoup4
 ```
 7.**Run the Streamlit app**:
 ```sh
