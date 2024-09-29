@@ -18,7 +18,7 @@ The process begins with data collection, where the application gathers articles 
 
 To run this project locally, follow these steps:
 
-1. **Clone the repository**:
+1. **Clone the repository**
 
 2. **Set up a virtual environment**:
 ```sh
