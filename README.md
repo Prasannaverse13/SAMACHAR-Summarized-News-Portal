@@ -1,10 +1,4 @@
-<p align="center">
-  <img src="/InNews-master/Meta/samachar.jpg" alt="screenshot" style="width:300px;height:auto;">
-</p>
-
-
-
-## SAMACHAR: A Summarized News 📰 Portal
+## SAMACHAR: A Summarized News Portal
 A Streamlit-based web application that offers summarized news from various sources. Users can access trending news, search by custom topics, or explore news in specific categories. This project uses RSS feeds from Google News and the Newspaper3k library to provide concise summaries and relevant images for each news article.
 
 
@@ -37,11 +31,18 @@ To run this project locally, follow these steps:
 ```sh
     pip install -r requirements.txt
 ``` 
-5.  **Download NLTK resources**:
+5. **Install Streamlit and additional dependencies**:
 ```sh
-    python -m nltk.downloader punkt
+    pip install streamlit newspaper3k
+``` 
+6. **Install any missing modules (optional): If you encounter any missing modules, you can install them by using**:
+```sh
+pip install <module-name>
 ```
-
+7.**Run the Streamlit app**:
+```sh
+streamlit run App.py
+```
 
 ## Project Structure
 ```
@@ -60,15 +61,10 @@ SAMACHAR/
 ```
 
 ## Screenshots
-<img src="/InNews-master/Meta/screenshot.jpg" alt="screenshot" style="max-width:100%;height:auto;">
+
+![Screenshot (843)](https://github.com/user-attachments/assets/78d823f5-3da8-492e-bc88-e16106cfb98b)
 
 
-
-## Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## Contact
-For any inquiries, please contact Dinesh Bahadur Shahi at [imdineshbdr@gmail.com](mailto:imdineshbdr@gmail.com).
 
 
 
