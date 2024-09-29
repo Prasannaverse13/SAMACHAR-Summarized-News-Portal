@@ -43,7 +43,11 @@ To run this project locally, follow these steps:
 ```sh
 pip install beautifulsoup4
 ```
-7.**Run the Streamlit app**:
+7. **If you encounter any issues with lxml, install it using**:
+```sh
+pip install lxml[html_clean]
+```
+8.**Run the Streamlit app**:
 ```sh
 streamlit run App.py
 ```
