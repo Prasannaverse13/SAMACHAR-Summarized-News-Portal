@@ -1,5 +1,9 @@
 ## SAMACHAR: Summarized News Portal
-A Streamlit-based web application that offers summarized news from various sources. Users can access trending news, search by custom topics, or explore news in specific categories. This project uses RSS feeds from Google News and the Newspaper3k library to provide concise summaries and relevant images for each news article.
+
+The Summarized-News-Portal is an innovative web application designed to streamline how users access and consume news. Utilizing advanced Machine Learning (ML) and Natural Language Processing (NLP) techniques, this project delivers concise summaries of news articles from various sources.
+
+The process begins with data collection, where the application gathers articles through RSS feeds using the Newspaper3k library. This ensures a wide range of topics and diverse viewpoints. Next, during data processing, NLP algorithms analyze the content, employing techniques like tokenization to break down text and summarization models to extract essential information, resulting in clear and concise summaries.
+
 
 
 ## Features
