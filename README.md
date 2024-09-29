@@ -19,9 +19,6 @@ The process begins with data collection, where the application gathers articles 
 To run this project locally, follow these steps:
 
 1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/DineshBahadurShahi/News-Summerizer-Portal.git
-   cd News-Summerizer-Portal
 
 2. **Set up a virtual environment**:
 ```sh
